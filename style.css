@@ -17,14 +17,11 @@ header {
   font-family: cursive;
   font-weight: bold;
   font-size: 150%;
-
-
 }
 
 h1 {
   margin-bottom: 0;
   margin-top: 0;
-
 }
 
 h3 {
@@ -74,14 +71,12 @@ hr {
 }
 
 form {
-    display: block;
-    margin-top: 0em;
-    text-align: center;
-
+  display: block;
+  margin-top: 0em;
+  text-align: center;
 }
 
 table, td {
-
   border-collapse: collapse;
 }
 
@@ -90,39 +85,35 @@ table, td {
   margin-right: auto;
 }
 
-
 @media(max-width: 600px) {
-
   p {
     font-size: 1.25rem;
   }
+
   li {
     font-size: 1.25rem;
   }
+
   nav a {
     font-size: 1.25rem;
   }
 
-body {
-  background-color: #EAF6F6;
-}
-
-
-
-
-@media (max-width:1024px) {
-  p {
-    font-size: 1.5rem;
-    line-height: 1.5;
+  body {
+    background-color: #EAF6F6;
   }
-li {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
 
-body {
-  background-color: #EAF6F6;
-}
+  @media (max-width:1024px) {
+    p {
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
 
+    li {
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
 
-}
+    body {
+      background-color: #EAF6F6;
+    }
+  }

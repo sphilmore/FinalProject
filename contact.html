@@ -27,19 +27,20 @@
 <div style = "position:relative; left:30px; top:2px;">
 
 
-  <form class="" action="mailto:cphilmore@mail.dccc." method="post" enctype="text/plain">
+  <form  action="mailto:cphilmore@mail.dccc." method="post" enctype="text/plain">
 <div style="position:relative; right:65px; top:2px;">
 
 
     <label> Name:</label>
-    <input type="text" name="Name" value=""><br><br>
+    <input class="Fname" type="text" name="Name" value=""><br><br>
     <label> Email:</label>
-    <input type="email" name="Email" value=""> <br><br>
+    <input class="email" type="email" name="Email" value=""> <br><br>
     <label>  Message: </label><br><br>
 </div>
 
   <textarea name="Message" rows="10" cols="34"></textarea><br>
-    <input type="submit">
+
+    <input class="submitBtn" type="submit">
 
   </form>
 
@@ -50,5 +51,11 @@
 <footer> Copyright © 2021 Philosopher's Corner
 
 </footer>
+<script type="text/javascript">
+  let submitBtn = document.querySelector(".submitBtn")
+  submitBtn.addEventListener("click",function(){
+        alert("Thank you")
 
+  })
+</script>
 </html>
